@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stefan Fiedler| Director del Certificado en Emprendimiento Regenerativo CRE</title>
     
+    <!-- TÍTULO OFICIAL ACTUALIZADO -->
+    <title>Stefan Fiedler | Director del Certificado en Emprendimiento Regenerativo CRE</title>
+    
+    <!-- Configuración para WhatsApp y Redes Sociales (Meta Tags) -->
+    <meta property="og:title" content="Stefan Fiedler | Director del Certificado en Emprendimiento Regenerativo CRE">
+    <meta property="og:description" content="Consultoría estratégica en Web3, dMRV y DePIN.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://inf-01.github.io/stefan-site/">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     
@@ -72,7 +80,6 @@
             content: "";
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
-            /* Líneas más finas y oscuras para mayor impacto visual */
             background: linear-gradient(
                 rgba(18, 16, 16, 0) 50%, 
                 rgba(0, 0, 0, 0.25) 50%
@@ -86,7 +93,6 @@
             background-size: 100% 2px, 3px 100%;
             z-index: 100;
             pointer-events: none;
-            /* Animación de flicker sutil para realismo CRT */
             animation: crtFlicker 0.15s infinite;
             opacity: 0.8;
         }
@@ -189,7 +195,7 @@
             <h1 class="text-6xl md:text-8xl font-extrabold mb-8 leading-[0.95] tracking-tighter text-white">
                 Codificando <br>
                 <span class="text-gradient">El Futuro Orgánico</span>
-            </h1 >
+            </h1>
             <p class="text-xl text-gray-400 max-w-2xl mb-12 leading-relaxed font-light">
                 Consultoría estratégica en <span class="text-white font-medium">Web3, dMRV y DePIN</span>. 
                 Infraestructura inmutable diseñada para la regeneración planetaria.
@@ -257,7 +263,6 @@
       AOS.init({ duration: 1000, once: true });
       lucide.createIcons();
       
-      // Partículas Bioluminiscentes
       const canvas = document.getElementById('particle-canvas');
       const ctx = canvas.getContext('2d');
       let particles = [];
@@ -291,7 +296,6 @@
       }
       animate();
 
-      // Wallet Logic
       let walletConnected = false;
       function toggleWalletConnect() {
           const btn = document.getElementById('walletButton');
@@ -309,7 +313,6 @@
 
       function showCalendly() { alert("Lanzando Calendly..."); }
 
-      // Mouse effect en cards
       document.querySelectorAll('.bioglow-card').forEach(card => {
           card.onmousemove = e => {
               const rect = card.getBoundingClientRect();
